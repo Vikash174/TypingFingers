@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  background: linear-gradient(90.34deg, rgb(102, 150, 214), rgb(192, 207, 235));
+}
+/*
+-----------------------------------------------
+       Header
+-----------------------------------------------
+*/
+header {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 10px; */
+  background: linear-gradient(45.34deg, #4e4a4e 5.66%, #67696d 94.35%);
+}
+header img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+header div {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  align-items: center;
+}
+header div p {
+  color: white;
+}
+
+.underHeader-section {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(45.34deg, #4e4a4e 5.66%, #67696d 94.35%);
+  color: white;
+}
+.underHeader-section div {
+  margin: 10px;
+}
+
+.hover-effect:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* 
+------------------------------------------------------------------
+---------Input Section-------------------------------------------
+-----------------------------------------------------------------
+*/
+
+
+
+#midle-section-div{
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.input-section {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 70%;
+}
+.div1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#login-button {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  background: blue;
+  color: white;
+}
+#Language-select-button {
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: green;
+}
+
+.words-board {
+  height: 100px;
+  width: 90%;
+  background: white;
+}
+.button-hover:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px;
+}
+.input-div{
+  display: flex;
+  gap: 10px;
+  margin-left: 20%;
+}
+.input-div input {
+  height: 30px;
+  font-size: 20px;
+  /* padding: 7px 5px; */
+  width: 300px;
+  border-radius: 5px;
+
+}
+.input-div button{
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: white;
+}
+.input-div button img{
+  height: 20px;
+}
+
+
+/* ------------------------------------------------------------
+------- Side Section Styling-----------------------------------
+---------------------------------------------------------------
+ */
+
+ #typeof-test-list-container{
+  width: 150px;
+  background-color: white;
+ }
+ #typeof-test-list-container ul li{
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  border-bottom: 1px solid black;
+  list-style: none;
+  padding: 5px;
+ }
+ #typeof-test-list-container ul li:hover{
+  cursor: pointer;
+  background-color: #c4c5c7;
+ }
